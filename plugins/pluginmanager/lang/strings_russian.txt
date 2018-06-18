@@ -1,0 +1,105 @@
+<?php
+
+/**
+ * Plugin Manager
+ *
+ *
+ * Created: 2007-02-13
+ * Last update: 2007-05-27
+ *
+ * @link http://deboutv.free.fr/mantis/
+ * @author DEBOUT Vincent  <deboutv@free.fr>
+ */
+
+/* Link string */
+
+$s_plugins_pluginmanager_link = 'плагины';
+
+/* Plugin Manager page */
+
+$s_plugins_pluginmanager_title = 'менеджер плагинов';
+$s_plugins_pluginmanager_package_title = 'пакет плагина';
+$s_plugins_pluginmanager_list_title = 'Available plugins';
+$s_plugins_pluginmanager_file_package_title = 'файлы пакета плагина';
+$s_plugins_pluginmanager_plugin = 'плагин';
+$s_plugins_pluginmanager_list = 'Available plugin list';
+$s_plugins_pluginmanager_file_plugin = 'файл плагина';
+$s_plugins_pluginmanager_website = 'вебсайт';
+$s_plugins_pluginmanager_installed_current_version = 'установлено / текущая версия';
+$s_plugins_pluginmanager_uninstall_link = 'удалить';
+$s_plugins_pluginmanager_install_plugin = 'установить плагин';
+$s_plugins_pluginmanager_package_plugin = 'пакет плагина';
+$s_plugins_pluginmanager_file_package_plugin = 'файлы пакета в плагине';
+$s_plugins_pluginmanager_directories_not_writeable = 'директория плагина не доступна для записи';
+$s_plugins_pluginmanager_url = 'адрес плагина (FTP, HTTP или файл)';
+$s_plugins_pluginmanager_upload = 'загрузить файл (только *.mantis.pkg)';
+$s_plugins_pluginmanager_or = 'или';
+$s_plugins_pluginmanager_upgrade_link = 'обновить';
+$s_plugins_pluginmanager_install_link = 'установить';
+$s_plugins_pluginmanager_repair_link = 'восстановить';
+
+/* Plugin Manager configuration page */
+
+$s_plugins_pluginmanager_page_title = 'настройка плагина Plugin Manager';
+$s_plugins_pluginmanager_configuration_for_project = 'настройка для проекта %%project%%.';
+$s_plugins_pluginmanager_check_version = 'проверка версии';
+$s_plugins_pluginmanager_check_unstable = 'проверка версии разработки';
+$s_plugins_pluginmanager_display_website = 'показывать адрес вебсайта';
+$s_plugins_pluginmanager_configure_threshold = 'Configuration threshold';
+$s_plugins_pluginmanager_install_uninstall_package = 'установить/удалить/пакет';
+$s_plugins_pluginmanager_mantis_upgrade = 'обновить Mantis';
+$s_plugins_pluginmanager_menu_link_threshold = 'Threshold to see Plugins link';
+$s_plugins_pluginmanager_url_list = 'URL list of site providing plugins';
+
+/* Plugin Manager installer page */
+
+$s_plugins_pluginmanager_install_title = 'инсталятор Plugin Manager';
+$s_plugins_pluginmanager_install = 'установить/обновить плагин';
+$s_plugins_pluginmanager_installation = 'установка';
+$s_plugins_pluginmanager_return = 'вернуть в Plugin Manager';
+$s_plugins_pluginmanager_test_pm = 'проверка версии пакета';
+$s_plugins_pluginmanager_test_name = 'имя плагина';
+$s_plugins_pluginmanager_test_version = 'версия плагина';
+$s_plugins_pluginmanager_test_check = 'проверить версию %s';
+$s_plugins_pluginmanager_test_install_upgrade = 'установить или обновить?';
+$s_plugins_pluginmanager_test_remove = 'удалить старые файлы';
+$s_plugins_pluginmanager_test_new_file = 'установка новыых файлов';
+$s_plugins_pluginmanager_test_check_script = 'проверка установочного скрипта';
+$s_plugins_pluginmanager_test_install = 'установить плагин';
+$s_plugins_pluginmanager_test_upgrade = 'обновить плагин';
+$s_plugins_pluginmanager_test_mantis_upgrade = 'восстановить плагин';
+$s_plugins_pluginmanager_test_mantis_repair = 'восстановить плагин';
+$s_plugins_pluginmanager_test_install_cancel = 'отмена (установки плагина)';
+$s_plugins_pluginmanager_test_upgrade_cancel = 'отмена (обновление плагина)';
+$s_plugins_pluginmanager_test_restore = 'восстановить старые файлы';
+$s_plugins_pluginmanager_test_register = 'регистрация плагина';
+
+/* Plugin Manager uninstaller page */
+
+$s_plugins_pluginmanager_uninstall_title = 'деинсталлятор Plugin Manager';
+$s_plugins_pluginmanager_uninstall_question = 'вы уверены что ходите удалить плагин "<b>%s</b>"?';
+$s_plugins_pluginmanager_dependencies = 'сначала вам необходимо удалить следующие плагины: ';
+$s_plugins_pluginmanager_uninstall = 'удалить плагин';
+$s_plugins_pluginmanager_test_uninstall = 'удалить плагин';
+$s_plugins_pluginmanager_test_uninstall_cancel = 'отмена (удаления плагина)';
+$s_plugins_pluginmanager_test_delete = 'удалить файлы плагина';
+$s_plugins_pluginmanager_test_unregister = 'разрегистрировать плагин';
+$s_plugins_pluginmanager_uninstallation = 'удаление';
+
+/* Plugin Manager Mantis upgrade page */
+
+$s_plugins_pluginmanager_mantis_upgrade_title = 'обновление Mantis Plugin Manager';
+$s_plugins_pluginmanager_mupgrade = 'готовность к обновлению';
+$s_plugins_pluginmanager_test_check_plugin = 'проверка совместимости плагина:';
+
+/* List page */
+
+$s_plugins_pluginmanager_installed = 'Installed';
+$s_plugins_pluginmanager_not_installed = 'Not Installed';
+$s_plugins_pluginmanager_plugin = 'Plugin: ';
+$s_plugins_pluginmanager_description = 'Description: ';
+$s_plugins_pluginmanager_author = 'Author: ';
+$s_plugins_pluginmanager_date = 'Date: ';
+$s_plugins_pluginmanager_version = 'Version: ';
+
+?>

@@ -1,0 +1,105 @@
+<?php
+
+/**
+ * Plugin Manager
+ *
+ *
+ * Created: 2007-02-13
+ * Last update: 2007-02-22
+ *
+ * @link http://deboutv.free.fr/mantis/
+ * @author DEBOUT Vincent  <deboutv@free.fr>
+ */
+
+/* Link string */
+
+$s_plugins_pluginmanager_link = 'Plugins';
+
+/* Plugin Manager page */
+
+$s_plugins_pluginmanager_title = 'Plugin Manager';
+$s_plugins_pluginmanager_package_title = 'Packager un plugin';
+$s_plugins_pluginmanager_list_title = 'Plugins disponibles';
+$s_plugins_pluginmanager_file_package_title = 'Packager des fichiers d\'un plugin';
+$s_plugins_pluginmanager_plugin = 'Plugin';
+$s_plugins_pluginmanager_list = 'Liste des plugins disponibles';
+$s_plugins_pluginmanager_file_plugin = 'Fichiers Plugin';
+$s_plugins_pluginmanager_website = 'Site Web';
+$s_plugins_pluginmanager_installed_current_version = 'Version Installée / Actuelle';
+$s_plugins_pluginmanager_uninstall_link = 'Désinstaller';
+$s_plugins_pluginmanager_install_plugin = 'Installer un plugin';
+$s_plugins_pluginmanager_package_plugin = 'Packager un plugin';
+$s_plugins_pluginmanager_file_package_plugin = 'Packager des fichiers d\'un plugin';
+$s_plugins_pluginmanager_directories_not_writeable = 'Le répertoire plugins n\'est/sont pas modifiable';
+$s_plugins_pluginmanager_url = 'URL du plugin (FTP, HTTP ou Fichier)';
+$s_plugins_pluginmanager_upload = 'Télécharger (seulement *.mantis.pkg)';
+$s_plugins_pluginmanager_or = 'OU';
+$s_plugins_pluginmanager_upgrade_link = 'Mettre à jour';
+$s_plugins_pluginmanager_install_link = 'Installer';
+$s_plugins_pluginmanager_repair_link = 'Réparer';
+
+/* Plugin Manager configuration page */
+
+$s_plugins_pluginmanager_page_title = 'Plugin Manager configuration';
+$s_plugins_pluginmanager_configuration_for_project = 'Configuration pour le projet %%project%%.';
+$s_plugins_pluginmanager_check_version = 'Vérifie la version';
+$s_plugins_pluginmanager_check_unstable = 'Vérifie la version de développement';
+$s_plugins_pluginmanager_display_website = 'Afficher l\'addresse du site';
+$s_plugins_pluginmanager_configure_threshold = 'Seuil de configuration';
+$s_plugins_pluginmanager_install_uninstall_package = 'Installer/Désinstaller/Packager';
+$s_plugins_pluginmanager_mantis_upgrade = 'Mettre à jour Mantis';
+$s_plugins_pluginmanager_menu_link_threshold = 'Seuil pour voir le lien Plugins';
+$s_plugins_pluginmanager_url_list = 'Liste des URL de site fournissant des plugins';
+
+/* Plugin Manager installer page */
+
+$s_plugins_pluginmanager_install_title = 'Plugin Manager - Installeur';
+$s_plugins_pluginmanager_install = 'Installer/Mettre à jour un plugin';
+$s_plugins_pluginmanager_installation = 'Installation';
+$s_plugins_pluginmanager_return = 'Retour au Plugin Manager';
+$s_plugins_pluginmanager_test_pm = 'Vérification de la version du packager';
+$s_plugins_pluginmanager_test_name = 'Nom du plugin';
+$s_plugins_pluginmanager_test_version = 'Version du plugin';
+$s_plugins_pluginmanager_test_check = 'Check the %s version';
+$s_plugins_pluginmanager_test_install_upgrade = 'Installation ou Mise à jour?';
+$s_plugins_pluginmanager_test_remove = 'Retrait des anciens fichiers';
+$s_plugins_pluginmanager_test_new_file = 'Installation des nouveaux fichiers';
+$s_plugins_pluginmanager_test_check_script = 'Vérification du script d\'installation';
+$s_plugins_pluginmanager_test_install = 'Installer le plugin';
+$s_plugins_pluginmanager_test_upgrade = 'Mettre à jour le plugin';
+$s_plugins_pluginmanager_test_mantis_upgrade = 'Préparer le plugin';
+$s_plugins_pluginmanager_test_mantis_repair = 'Réparer le plugin';
+$s_plugins_pluginmanager_test_install_cancel = 'Annuler (Installer le plugin)';
+$s_plugins_pluginmanager_test_upgrade_cancel = 'Annuler (Mettre à jour le plugin)';
+$s_plugins_pluginmanager_test_restore = 'Restaurer les anciens fichiers';
+$s_plugins_pluginmanager_test_register = 'Enregistrer le plugin';
+
+/* Plugin Manager uninstaller page */
+
+$s_plugins_pluginmanager_uninstall_title = 'Plugin Manager - Désinstalleur';
+$s_plugins_pluginmanager_uninstall_question = 'Etes vous sûr de vouloir désinstaller le plugin "<b>%s</b>" ?';
+$s_plugins_pluginmanager_dependencies = 'En premier, vous devez désinstaller les plugins suivants : ';
+$s_plugins_pluginmanager_uninstall = 'Désinstaller un plugin';
+$s_plugins_pluginmanager_test_uninstall = 'Désinstaller le plugin';
+$s_plugins_pluginmanager_test_uninstall_cancel = 'Annuler (Désinstaller le plugin)';
+$s_plugins_pluginmanager_test_delete = 'Destruction des fichiers du plugin';
+$s_plugins_pluginmanager_test_unregister = 'Effacer le plugin';
+$s_plugins_pluginmanager_uninstallation = 'Désinstallation';
+
+/* Plugin Manager Mantis upgrade page */
+
+$s_plugins_pluginmanager_mantis_upgrade_title = 'Plugin Manager - Mise à jour de Mantis';
+$s_plugins_pluginmanager_mupgrade = 'Prêt à mettre à jour';
+$s_plugins_pluginmanager_test_check_plugin = 'Vérification de la compatibilité du plugin :';
+
+/* List page */
+
+$s_plugins_pluginmanager_installed = 'Installé';
+$s_plugins_pluginmanager_not_installed = 'Non Installé';
+$s_plugins_pluginmanager_plugin = 'Plugin : ';
+$s_plugins_pluginmanager_description = 'Description : ';
+$s_plugins_pluginmanager_author = 'Auteur : ';
+$s_plugins_pluginmanager_date = 'Date : ';
+$s_plugins_pluginmanager_version = 'Version : ';
+
+?>

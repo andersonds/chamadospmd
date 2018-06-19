@@ -666,3 +666,13 @@
 15-06-2018 11:39 BRT MAIL email_api.php:975 email_bugnote_add() Note ~87 added to issue #25
 15-06-2018 11:39 BRT MAIL email_api.php:975 email_bugnote_add() Note ~88 added to issue #25
 15-06-2018 11:40 BRT MAIL email_api.php:954 email_bug_updated() Issue #19 updated
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:15 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address
+19-06-2018 11:16 BRT MAIL email_api.php:175 email_is_valid() failed - invalid address

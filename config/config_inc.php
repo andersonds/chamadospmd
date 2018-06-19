@@ -37,7 +37,7 @@ $g_admin_site_threshold = REPORT;
 
  $g_ldap_uid_field = 'sAMAccountName';
  $g_use_ldap_email = OFF;
- $g_validate_email=ON;
+ $g_validate_email=OFF;
 
  $g_use_ldap_realname    = ON;
  $g_ldap_bind_dn = 'cn=Administrator,cn=Users,dc=diadema,dc=sp,dc=gov,dc=br';
@@ -111,3 +111,19 @@ $g_administrator_email = 'suporte_programas@diadema.sp.gov.br'; //this will be y
 
         #$g_wiki_engine_url = 'http://pmdwiki.diadema.sp.gov.br/';
         #$g_cookie_domain = '.diadema.sp.gov.br'; 
+
+
+
+
+   #################################
+
+   #	DOCUMENT         
+
+   #################################
+
+
+$g_enable_project_documentation = ON;
+
+
+
+$g_show_project_menu_bar = OFF;

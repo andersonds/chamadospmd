@@ -950,7 +950,7 @@ $g_language_auto_map = array(
  * Fallback for automatic language selection
  * @global string $g_fallback_language
  */
-$g_fallback_language = 'english';
+$g_fallback_language = 'portuguese_brazil';
 
 ##########################
 # MantisBT Font Settings #
